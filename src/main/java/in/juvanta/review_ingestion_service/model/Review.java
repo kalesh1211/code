@@ -9,7 +9,7 @@ public class Review {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;  // Added primary key field
+    private Long id;  
 
     @Embeddable
     public static class Location {
@@ -65,10 +65,10 @@ public class Review {
     @ElementCollection
     public List<String> reviewImageUrls;
 
-    @Transient  // Mark as non-persistent
+    @Transient  
     public Object reviewContext;
 
-    @Transient  // Mark as non-persistent
+    @Transient  
     public Object reviewDetailedRating;
 
     public String visitedIn;
@@ -166,12 +166,10 @@ public class Review {
         this.publishedDate = publishedDate;
     }
 
-    // Add getter for id
     public Long getId() {
         return id;
     }
 
-    // Add setter for id
     public void setId(Long id) {
         this.id = id;
     }
