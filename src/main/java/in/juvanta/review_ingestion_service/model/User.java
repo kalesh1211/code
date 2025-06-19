@@ -19,8 +19,6 @@ public class User {
         this.name = name;
         this.email = email;
     }
-
-    // Getters and setters
     public Long getId() {
         return id;
     }
