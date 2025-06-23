@@ -20,7 +20,7 @@ public class User {
         this.email = email;
     }
 
-    // Getters and setters
+  
     public Long getId() {
         return id;
     }
