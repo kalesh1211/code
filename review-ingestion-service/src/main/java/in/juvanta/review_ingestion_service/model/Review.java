@@ -9,7 +9,7 @@ public class Review {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;  // Added primary key field
+    private Long id;  
 
     @Embeddable
     public static class Location {
