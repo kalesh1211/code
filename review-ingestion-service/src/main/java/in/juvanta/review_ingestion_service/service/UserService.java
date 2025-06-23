@@ -16,7 +16,7 @@ public class UserService {
         this.userRepository = userRepository;
     }
 
-    // CRUD Operations
+
     public User createUser(User user) {
         return userRepository.save(user);
     }
