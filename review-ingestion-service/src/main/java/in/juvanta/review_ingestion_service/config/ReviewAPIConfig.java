@@ -11,7 +11,7 @@ public class ReviewAPIConfig {
     @Bean
     public WebClient reviewWebClient() {
         return WebClient.builder()
-                .baseUrl("https://api.example.com") // Placeholder URL
+                .baseUrl("https://api.example.com")
                 .build();
     }
 }
