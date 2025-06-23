@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
       loadMappings(integrationSelect.value);
     });
 
-  // Change integration
+  
   integrationSelect.addEventListener('change', () => {
     loadMappings(integrationSelect.value);
   });
